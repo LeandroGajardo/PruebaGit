@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.paragraph-one::first-letter{
+    color: red;
+}
+
+
+
+.paragraph-two::first-line{
+    text-decoration: underline;
+}
+
+/*  
+a::before{
+    content: "❤";
+}
+*/
+
+a:hover::before{
+    content: "❤";
+}
+
+a::after {
+    content: "";
+}
+
+/* 
+especificidad
+
+
+!important: destaca o prioriza esta decalaracion
+
+*/
+
+
+/* unidades absolutas */
+
+.paragraph-two {
+    font-size: 40px;
+
+}
+
+/* Unidades relativas - rem */
+
+
+.paragraph-one {
+    font-size: 1rem;
+}
+
+
+
+
